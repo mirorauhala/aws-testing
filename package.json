@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "fastify start -l info --env production server.js"
+    "start": "fastify start -l info -a 0.0.0.0 -p 8080 --env production server.js"
   },
   "author": "",
   "license": "ISC",
